@@ -1,0 +1,32 @@
+{
+  "name": "@f0c1s/random-hex-strings",
+  "version": "4.0.0",
+  "description": "A node/npm package that generates random strings of length n. `npm i @f0c1s/random-hex-strings`",
+  "main": "src/random-hex-strings.js",
+  "scripts": {
+    "test": "npm run build && jasmine",
+    "build": "tsc --project tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f0c1s/random-hex-strings.git"
+  },
+  "keywords": [
+    "random",
+    "hex",
+    "strings",
+    "random-hex-strings",
+    "hex-strings"
+  ],
+  "author": "Anubhav <iamanubhavsaini@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/f0c1s/random-hex-strings/issues"
+  },
+  "homepage": "https://github.com/f0c1s/random-hex-strings#readme",
+  "devDependencies": {
+    "@types/jasmine": "^3.6.9",
+    "@types/node": "^14.14.40",
+    "jasmine": "^3.7.0"
+  }
+}
